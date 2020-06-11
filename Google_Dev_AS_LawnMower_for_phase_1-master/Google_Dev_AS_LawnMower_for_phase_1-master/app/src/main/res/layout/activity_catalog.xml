@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/root_wrapper_activity"
+    tools:context=".CatalogActivity">
+
+    <include layout="@layout/merge_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/m_p_16" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            style="@style/fab"
+            android:src="@drawable/layer_list_fab"
+            app:backgroundTint="@color/colorPrimary"
+            app:rippleColor="@color/colorAccent"
+            tools:override="true" />
+    </RelativeLayout>
+</LinearLayout>

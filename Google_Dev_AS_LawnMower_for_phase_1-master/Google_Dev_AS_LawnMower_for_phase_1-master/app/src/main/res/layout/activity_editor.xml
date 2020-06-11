@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/root_wrapper_activity"
+    tools:context=".EditorActivity">
+
+    <include layout="@layout/merge_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout style="@style/root_wrapper_activity">
+
+            <!--category-->
+            <LinearLayout style="@style/spinner_wrapper_horizontal">
+
+                <TextView
+                    style="@style/spinner_label"
+                    android:text="@string/main_category" />
+
+                <Spinner
+                    android:id="@+id/main_category_spinner"
+                    style="@style/spinner_drop_down"
+                    android:entries="@array/main_category_array" />
+            </LinearLayout>
+
+            <!--sub-category-->
+            <LinearLayout style="@style/spinner_wrapper_horizontal">
+
+                <TextView
+                    style="@style/spinner_label"
+                    android:text="@string/sub_category" />
+
+                <Spinner
+                    android:id="@+id/sub_category_spinner"
+                    style="@style/spinner_drop_down"
+                    android:entries="@array/sub_category_array" />
+            </LinearLayout>
+
+            <!--mower name-->
+            <TextView
+                style="@style/edit_text_label"
+                android:text="@string/mower_name"
+                app:fontFamily="sans-serif" />
+
+            <EditText
+                android:id="@+id/mower_name_input"
+                style="@style/edit_text"
+                android:hint="@string/mower_name_format"
+                android:inputType="text|textCapWords"
+                android:textAllCaps="false"
+                app:fontFamily="sans-serif" />
+
+            <!--series name-->
+            <TextView
+                style="@style/edit_text_label"
+                android:text="@string/series_name"
+                app:fontFamily="sans-serif" />
+
+            <EditText
+                android:id="@+id/series_name_input"
+                style="@style/edit_text"
+                android:hint="@string/series_name_format"
+                android:inputType="text|textCapCharacters"
+                android:textAllCaps="true"
+                app:fontFamily="sans-serif" />
+
+            <!--price, quantity label-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/edit_text_label"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:text="@string/price"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    style="@style/edit_text_label"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:text="@string/quantity"
+                    app:fontFamily="sans-serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/price_input"
+                    style="@style/edit_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:hint="@string/price_format"
+                    android:inputType="number|numberDecimal"
+                    app:fontFamily="sans-serif" />
+
+                <EditText
+                    android:id="@+id/quantity_input"
+                    style="@style/edit_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:hint="@string/quantity_format"
+                    android:inputType="number"
+                    app:fontFamily="sans-serif" />
+            </LinearLayout>
+
+            <!--supplier name-->
+            <TextView
+                style="@style/edit_text_label_orange"
+                android:text="@string/supplier_name"
+                app:fontFamily="sans-serif" />
+
+            <EditText
+                android:id="@+id/supplier_name_input"
+                style="@style/edit_text"
+                android:hint="@string/supplier_name_format"
+                android:inputType="text|textCapWords"
+                android:textAllCaps="false"
+                app:fontFamily="sans-serif" />
+
+            <!--supplier country-->
+            <TextView
+                style="@style/edit_text_label_orange"
+                android:text="@string/supplier_country_town"
+                app:fontFamily="sans-serif" />
+
+            <EditText
+                android:id="@+id/supplier_country_input"
+                style="@style/edit_text"
+                android:hint="@string/supplier_country_town_format"
+                android:inputType="text|textCapCharacters"
+                android:textAllCaps="true"
+                app:fontFamily="sans-serif" />
+
+            <!--supplier phone-->
+            <TextView
+                style="@style/edit_text_label_orange"
+                android:text="@string/supplier_phone_number"
+                app:fontFamily="sans-serif" />
+
+            <EditText
+                android:id="@+id/supplier_phone_input"
+                style="@style/edit_text"
+                android:hint="@string/supplier_phone_number_format"
+                android:inputType="phone"
+                android:textAllCaps="false"
+                app:fontFamily="sans-serif" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

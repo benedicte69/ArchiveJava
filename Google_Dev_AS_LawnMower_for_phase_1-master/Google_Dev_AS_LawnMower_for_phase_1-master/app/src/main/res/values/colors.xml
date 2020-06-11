@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#70af24</color>
+    <color name="colorPrimaryDark">#3d7f00</color>
+    <color name="colorAccent">#6324af</color>
+
+    <!-- toolbar text-->
+    <color name="colorVeryDarkViolet">#3f1770</color>
+
+    <!--activity background-->
+    <color name="colorGreyLight">#e9edef</color>
+
+    <!--form item background-->
+    <color name="colorWhite">#ffffff</color>
+
+    <!--edit text hint-->
+    <color name="colorGreyMedium">#757575</color>
+
+    <!-- form label-->
+    <color name="colorPrimaryOrange">#af6324</color>
+
+</resources>

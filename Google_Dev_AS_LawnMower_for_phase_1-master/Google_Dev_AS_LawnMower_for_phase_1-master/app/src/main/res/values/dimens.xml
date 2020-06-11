@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--     <dimen name="" ></dimen>     -->
+
+    <!--fab-->
+    <dimen name="design_fab_image_size" tools:ignore="PrivateResource">50dp</dimen>
+    <dimen name="fab_margin">32dp</dimen>
+
+    <!--margin padding width-->
+    <dimen name="m_p_16">16dp</dimen>
+    <dimen name="m_p_8">8dp</dimen>
+    <dimen name="m_p_5">5dp</dimen>
+    <dimen name="m_p_w_0">0dp</dimen>
+
+    <!--text-->
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="m_p_24">24dp</dimen>
+
+</resources>

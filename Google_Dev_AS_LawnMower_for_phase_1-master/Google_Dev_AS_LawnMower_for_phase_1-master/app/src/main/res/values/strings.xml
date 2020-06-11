@@ -1,0 +1,56 @@
+<resources>
+
+    <!--app titles-->
+    <string name="app_name">Lawn Mower</string>
+    <string name="catalog_activity_title">Lawn Mower Data</string>
+    <string name="editor_activity_title">Add new data</string>
+
+
+    <!--form labels-->
+    <string name="main_category">Main category</string>
+    <string name="sub_category">Sub-category</string>
+    <string name="mower_name">Mower name</string>
+    <string name="series_name">Series name</string>
+    <string name="price">price</string>
+    <string name="quantity">quantity</string>
+    <string name="supplier_name">Supplier name</string>
+    <string name="supplier_country_town">Supplier country (Town)</string>
+    <string name="supplier_phone_number">Supplier phone number</string>
+
+
+    <!--form format-->
+    <string name="mower_name_format">Name Of The Mower</string>
+    <string name="series_name_format">SERIES NAME 0A00</string>
+    <string name="price_format">0.00</string>
+    <string name="quantity_format">0</string>
+    <string name="supplier_name_format">Name Of The Supplier</string>
+    <string name="supplier_country_town_format">COUNTRY (TOWN optional)</string>
+    <string name="supplier_phone_number_format">0000–000–000–0000</string>
+
+    <!--form spinner select label-->
+    <string name="select">select:</string>
+
+    <!--form spinner main category- -->
+    <string name="lawn_mower">LAWN MOWER</string>
+    <string name="riding_mower">RIDING MOWER</string>
+    <string name="robot_mower">ROBOT MOWER</string>
+
+    <!--form spinner sub category-->
+    <string name="gas_lawn_mower">Gas Lawn Mower</string>
+    <string name="cordless_electric_lawn_mower">Cordless Electric Lawn Mower</string>
+    <string name="corded_electric_lawn_mower">Corded Electric Lawn Mower</string>
+    <string name="reel_lawn_mower">Reel Lawn Mower</string>
+    <string name="gas_riding_lawn_mower">Gas Riding Lawn Mower</string>
+    <string name="zero_turn_riding_lawn_mower">Zero-Turn Riding Lawn Mower</string>
+    <string name="robotic_lawn_mower">Robotic Lawn Mower</string>
+
+    <!--temporary message in the data textView-->
+    <string name="data_display_1">The mowers table contains: </string>
+    <string name="data_display_2">lawnmower(s).</string>
+    <string name="save_data">save data</string>
+    <string name="delete">delete</string>
+    <string name="display_suppliers">Display suppliers</string>
+    <string name="display_stock">Display stock</string>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fab" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">fill</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="edit_text_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginLeft">@dimen/m_p_24</item>
+        <item name="android:layout_marginStart">@dimen/m_p_24</item>
+        <item name="android:layout_marginRight">@dimen/m_p_16</item>
+        <item name="android:layout_marginEnd">@dimen/m_p_16</item>
+        <item name="android:layout_marginTop">@dimen/m_p_5</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+</resources>

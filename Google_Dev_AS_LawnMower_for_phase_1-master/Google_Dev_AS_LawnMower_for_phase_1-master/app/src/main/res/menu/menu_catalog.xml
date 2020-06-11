@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_display_suppliers"
+        android:title="@string/display_suppliers"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_display_stock"
+        android:title="@string/display_stock"
+        app:showAsAction="never" />
+</menu>

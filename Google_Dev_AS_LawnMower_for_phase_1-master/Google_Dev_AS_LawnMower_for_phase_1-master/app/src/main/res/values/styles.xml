@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--app root view-->
+    <style name="root_wrapper_activity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorGreyLight</item>
+    </style>
+
+    <!--Toolbar-->
+    <style name="toolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_marginBottom">@dimen/m_p_8</item>
+        <item name="android:background">@drawable/bitmap_lawn_pattern</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+
+    <!--floating action button-->
+    <style name="fab" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">fill</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <!--spinner-->
+    <style name="spinner_wrapper_horizontal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/m_p_8</item>
+        <item name="android:layout_marginLeft">@dimen/m_p_16</item>
+        <item name="android:layout_marginRight">@dimen/m_p_16</item>
+        <item name="android:layout_marginTop">@dimen/m_p_8</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:paddingTop">@dimen/m_p_5</item>
+        <item name="android:paddingBottom">@dimen/m_p_5</item>
+        <item name="android:paddingLeft">@dimen/m_p_8</item>
+        <item name="android:paddingRight">@dimen/m_p_w_0</item>
+    </style>
+
+    <style name="spinner_label" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="spinner_drop_down">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">10</item>
+    </style>
+
+    <!--edit text label-->
+    <style name="edit_text_label" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginLeft">@dimen/m_p_24</item>
+        <item name="android:layout_marginRight">@dimen/m_p_16</item>
+        <item name="android:layout_marginTop">@dimen/m_p_5</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <!--edit text label-->
+    <style name="edit_text_label_orange" parent="edit_text_label">
+        <item name="android:textColor">@color/colorPrimaryOrange</item>
+    </style>
+    <!--edit text-->
+    <style name="edit_text" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/m_p_8</item>
+        <item name="android:layout_marginLeft">@dimen/m_p_16</item>
+        <item name="android:layout_marginRight">@dimen/m_p_16</item>
+        <item name="android:layout_marginTop">@dimen/m_p_8</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:paddingBottom">@dimen/m_p_5</item>
+        <item name="android:paddingLeft">@dimen/m_p_8</item>
+        <item name="android:paddingRight">@dimen/m_p_w_0</item>
+        <item name="android:paddingTop">@dimen/m_p_5</item>
+        <item name="android:textColorHint">@color/colorGreyMedium</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+
+</resources>
