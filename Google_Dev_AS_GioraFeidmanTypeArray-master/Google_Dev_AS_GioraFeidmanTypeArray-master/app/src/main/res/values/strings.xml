@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Giora Feidman</string>
+    <string name="album">album:</string>
+    <string name="released">released:</string>
+    <string name="go_back">go back</string>
+    <string name="music_without_borders">Music has no border</string>
+    <string name="logo_java_gold_album" translatable="false">logo Java Gold Album</string>
+    <string name="giora_feidman" translatable="false">Giora Feidman</string>
+    <string name="clarinetist">Clarinetist</string>
+    <string name="title0">The Klezmer\'s Freilach</string>
+    <string name="title1">Songs of Rejoicing</string>
+    <string name="title2">The Happy Nigun</string>
+    <string name="title3">Dancing with the Rabbi</string>
+    <string name="title4">Let\'s Be Happy</string>
+    <string name="title5">Mi Chomocha</string>
+    <string name="title6">The dance of joy</string>
+    <string name="title7">The Dance Of Fire</string>
+    <string name="title8">Nigun</string>
+    <string name="title9">Dance of the souls</string>
+    <string name="album0">The Incredible Clarinet</string>
+    <string name="album1">The Magic of the Klezmer</string>
+    <string name="album2">The Singing Clarinet</string>
+    <string name="album3">Klassic Klezmer</string>
+    <string name="album4">Yiddish Soul</string>
+    <string name="album5">The Singing Clarinet</string>
+    <string name="album6"><![CDATA[Gershwin & The Klezmer]]></string>
+    <string name="album7">The Dance of Joy</string>
+    <string name="album8">The Magic of the Klezmer</string>
+    <string name="album9">The Singing Clarinet</string>
+    <string name="date0">1992</string>
+    <string name="date1">1986</string>
+    <string name="date2">1989</string>
+    <string name="date3">1998</string>
+    <string name="date4">1993</string>
+    <string name="date5">1989</string>
+    <string name="date6">1991</string>
+    <string name="date7">2009</string>
+    <string name="date8">1986</string>
+    <string name="date9">1989</string>
+    <string name="video0">R.raw.v0</string>
+</resources>

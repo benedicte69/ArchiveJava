@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchParent"
+    android:orientation="vertical"
+    tools:context="com.example.bened.giorafeidmanTypeArray.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/background_gold_50"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/arrow_back_intent"
+            style="@style/WrapContent16dpRLpadding"
+            android:contentDescription="@string/go_back"
+            android:src="@drawable/arrow_back_200" />
+
+        <TextView
+            android:id="@+id/title_video_wrapper"
+            style="@style/WrapContent16dpRLpadding"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="4"
+        android:background="@color/colorSongItem"
+        android:padding="16dp">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryLight"
+        android:gravity="center"
+        style="@style/RLpadding16dp"
+        android:text="@string/music_without_borders"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif">
+    </TextView>
+
+    <include layout="@layout/inc_footer"/>
+
+</LinearLayout>

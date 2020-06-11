@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="title">
+        <item>@string/title0</item>
+        <item>@string/title1</item>
+        <item>@string/title2</item>
+        <item>@string/title3</item>
+        <item>@string/title4</item>
+        <item>@string/title5</item>
+        <item>@string/title6</item>
+        <item>@string/title7</item>
+        <item>@string/title8</item>
+        <item>@string/title9</item>
+    </array>
+    <array name="album">
+        <item>@string/album0</item>
+        <item>@string/album1</item>
+        <item>@string/album2</item>
+        <item>@string/album3</item>
+        <item>@string/album4</item>
+        <item>@string/album5</item>
+        <item>@string/album6</item>
+        <item>@string/album7</item>
+        <item>@string/album8</item>
+        <item>@string/album9</item>
+    </array>
+    <array name="date">
+        <item>@string/date0</item>
+        <item>@string/date1</item>
+        <item>@string/date2</item>
+        <item>@string/date3</item>
+        <item>@string/date4</item>
+        <item>@string/date5</item>
+        <item>@string/date6</item>
+        <item>@string/date7</item>
+        <item>@string/date8</item>
+        <item>@string/date9</item>
+    </array>
+    <array name="video">
+        <item>@string/video0</item>
+        <item>@string/video0</item>
+        <item>@string/video0</item>
+        <item>@string/video0</item>
+        <item>@string/video0</item>
+        <item>@string/video0</item>
+        <item>@string/video0</item>
+        <item>@string/video0</item>
+        <item>@string/video0</item>
+        <item>@string/video0</item>
+    </array>
+
+</resources>
+

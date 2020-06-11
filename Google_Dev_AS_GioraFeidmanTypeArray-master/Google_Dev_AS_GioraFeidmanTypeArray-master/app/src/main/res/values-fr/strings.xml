@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Giora Feidman</string>
+    <string name="album">album :</string>
+    <string name="go_back">retour</string>
+    <string name="music_without_borders">La musique n\'a pas de frontière</string>
+    <string name="clarinetist">Clarinettiste</string>
+    <string name="released">date de sortie :</string>
+</resources>
