@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollView">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        style="@style/QuizMainBackground"
+        tools:context="com.example.android.harpagophytumquiz.MainActivity">
+
+        <LinearLayout
+            style="@style/QuizUserWrapper"
+            android:paddingBottom="24dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="24dp">
+
+            <include layout="@layout/inc_header" />
+
+            <include layout="@layout/inc_title_single_answer" />
+
+            <include layout="@layout/inc_single_answer_q1_land" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/RadioGroup"
+                android:layout_marginLeft="150dp"
+                android:layout_marginStart="150dp">
+
+                <RadioButton
+                    android:id="@+id/radio_botswana_q1a_true"
+                    style="@style/RadioButton"
+                    android:onClick="onRadioButtonSetQ1Clicked"
+                    android:text="@string/radio_q1a_botswana_true" />
+
+                <RadioButton
+                    android:id="@+id/radio_bangladesh_q1b"
+                    style="@style/RadioButton"
+                    android:onClick="onRadioButtonSetQ1Clicked"
+                    android:text="@string/radio_q1b_bangladesh" />
+
+                <RadioButton
+                    android:id="@+id/radio_burundi_q1c"
+                    style="@style/RadioButton"
+                    android:onClick="onRadioButtonSetQ1Clicked"
+                    android:text="@string/radio_q1c_burundi" />
+            </RadioGroup>
+
+            <include layout="@layout/inc_single_answer_q2_land" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/RadioGroup"
+                android:layout_marginLeft="150dp"
+                android:layout_marginStart="150dp">
+
+                <RadioButton
+                    android:id="@+id/radio_migraine_q2a"
+                    style="@style/RadioButton"
+                    android:onClick="onRadioButtonSetQ2Clicked"
+                    android:text="@string/radio_q2a_migraine" />
+
+                <RadioButton
+                    android:id="@+id/radio_joint_pain_q2b_true"
+                    style="@style/RadioButton"
+                    android:onClick="onRadioButtonSetQ2Clicked"
+                    android:text="@string/radio_q2b_joint_pain_true" />
+
+                <RadioButton
+                    android:id="@+id/radio_lung_edema_q2c"
+                    style="@style/RadioButton"
+                    android:onClick="onRadioButtonSetQ2Clicked"
+                    android:text="@string/radio_q2c_lung_edema" />
+            </RadioGroup>
+
+            <include layout="@layout/inc_single_answer_q3_land" />
+
+            <LinearLayout
+                style="@style/EditTextContainer"
+                android:layout_marginLeft="160dp"
+                android:layout_marginStart="160dp">
+
+                <TextView
+                    style="@style/TextEnterYourChoice"
+                    android:layout_weight="20"
+                    android:gravity="start"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:text="@string/q3_your_choice" />
+
+                <EditText
+                    android:id="@+id/text_number_30_60_90true_q3"
+                    style="@style/EditTextNumber"
+                    android:layout_weight="3" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:paddingEnd="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="10dp"
+                    android:text="@string/q3_per_cent"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn_valid"
+                    style="@style/ButtonValid"
+                    android:layout_weight="10"
+                    android:onClick="checkEditTextQ3"
+                    android:text="@string/btn_valid_q3" />
+            </LinearLayout>
+
+            <include layout="@layout/inc_title_multiple_answers" />
+
+            <include layout="@layout/inc_multiple_answers_q4_land" />
+
+            <LinearLayout
+                style="@style/CheckboxesWrapper"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    style="@style/CheckPlusText"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2.5">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_grapple_plant_q4a_true"
+                        style="@style/Checkbox"
+                        android:onClick="onCheckboxClicked"
+                        android:text="@string/check_q4a_grapple_plant_true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/CheckPlusText"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2.5">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_wrestle_root_q4b"
+                        style="@style/Checkbox"
+                        android:onClick="onCheckboxClicked"
+                        android:text="@string/check_q4b_wrestle_root" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/CheckboxesWrapper"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    style="@style/CheckPlusText"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2.5">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_wood_spider_q4c_true"
+                        style="@style/Checkbox"
+                        android:onClick="onCheckboxClicked"
+                        android:text="@string/check_q4c_wood_spider_true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/CheckPlusText"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2.5">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_steel_scorpion_q4d"
+                        style="@style/Checkbox"
+                        android:onClick="onCheckboxClicked"
+                        android:text="@string/check_q4d_steel_scorpion" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/CheckboxesWrapper"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    style="@style/CheckPlusText"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_weight="2.5"
+                    tools:ignore="UselessParent">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_devil_claw_q4e_true"
+                        style="@style/Checkbox"
+                        android:onClick="onCheckboxClicked"
+                        android:text="@string/check_q4e_devil_s_claw_true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/inc_multiple_answers_q5_land" />
+
+            <LinearLayout
+                style="@style/CheckboxesWrapper"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    style="@style/CheckPlusText"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_weight="2.5">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_Hypnaceae_q5a"
+                        style="@style/Checkbox"
+                        android:onClick="onCheckboxClicked"
+                        android:text="@string/check_q5a_hypnaceae" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/CheckPlusText"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2.5">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_Ophioglossaceae_q5b"
+                        style="@style/Checkbox"
+                        android:onClick="onCheckboxClicked"
+                        android:text="@string/check_q5b_ophioglossaceae" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/CheckboxesWrapper"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    style="@style/CheckPlusText"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_weight="2.5">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_Pedaliaceae_q5c_true"
+                        style="@style/Checkbox"
+                        android:onClick="onCheckboxClicked"
+                        android:text="@string/check_q5c_pedaliaceae_true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/CheckPlusText"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2.5">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_Sesame_q5d_true"
+                        style="@style/Checkbox"
+                        android:onClick="onCheckboxClicked"
+                        android:text="@string/check_q5d_sesame_true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/inc_multiple_answers_q6_land" />
+
+            <LinearLayout
+                style="@style/CheckboxesWrapper"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp">
+
+                <LinearLayout style="@style/WrapperImgLand">
+
+                    <LinearLayout
+                        style="@style/CheckPlusBoxPlusImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessParent">
+
+                        <CheckBox
+                            android:id="@+id/checkbox_img01_q6a_true"
+                            style="@style/Checkbox"
+                            android:onClick="onCheckboxClicked"
+                            android:text="@string/img_01_q6a_true" />
+
+                        <ImageView
+                            style="@style/Checkbox"
+                            android:contentDescription="@string/app_name"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/img_01_06" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/ViewSpaceLand" />
+
+                <LinearLayout style="@style/WrapperImgLand">
+
+                    <LinearLayout
+                        style="@style/CheckPlusBoxPlusImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessParent">
+
+                        <CheckBox
+                            android:id="@+id/checkbox_img02_q6b_true"
+                            style="@style/Checkbox"
+                            android:onClick="onCheckboxClicked"
+                            android:text="@string/img_02_q6b_true" />
+
+                        <ImageView
+                            style="@style/Checkbox"
+                            android:contentDescription="@string/app_name"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/img_02_06" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/CheckboxesWrapper"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp">
+
+                <LinearLayout style="@style/WrapperImgLand">
+
+                    <LinearLayout
+                        style="@style/CheckPlusBoxPlusImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessParent">
+
+                        <CheckBox
+                            android:id="@+id/checkbox_img03_q6c"
+                            style="@style/Checkbox"
+                            android:onClick="onCheckboxClicked"
+                            android:text="@string/img_03_q6c" />
+
+                        <ImageView
+                            style="@style/Checkbox"
+                            android:contentDescription="@string/app_name"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/img_03_06" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/ViewSpaceLand" />
+
+                <LinearLayout style="@style/WrapperImgLand">
+
+                    <LinearLayout
+                        style="@style/CheckPlusBoxPlusImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessParent">
+
+                        <CheckBox
+                            android:id="@+id/checkbox_img04_q6d"
+                            style="@style/Checkbox"
+                            android:onClick="onCheckboxClicked"
+                            android:text="@string/img_04_q6d" />
+
+                        <ImageView
+                            style="@style/Checkbox"
+                            android:contentDescription="@string/app_name"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/img_04_06" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/inc_title_score_solution" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    style="@style/WrapperDiscover"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/discover_your_score"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/WrapperDiscover"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        style="@style/Checkbox"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/right_arrow" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/WrapperGrading"
+                    android:layout_weight="2.5"
+                    android:gravity="start">
+
+                    <Button
+                        style="@style/ButtonBrown"
+                        android:gravity="center_vertical"
+                        android:onClick="showGrading"
+                        android:text="@string/btn_grading" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_toast_reset"
+                style="@style/ButtonReset"
+                android:onClick="resetGrading"
+                android:text="@string/btn_reset" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/TextAnswer"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:text="@string/receive_answers_mailbox" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/WrapperAnswer">
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    style="@style/WrapperEditTextName"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_weight="1.8">
+
+                    <EditText
+                        android:id="@+id/user_name"
+                        style="@style/EditTextName"
+                        android:hint="@string/your_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/WrapperSubmit"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="start">
+
+                    <Button
+                        style="@style/ButtonBrown"
+                        android:onClick="sendTheAnswers"
+                        android:text="@string/btn_submit" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <include layout="@layout/inc_footer" />
+
+    </LinearLayout>
+</ScrollView>

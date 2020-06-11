@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HEADER !-->
+    <!-- N.B.: Harpagophytum procumbens / H. procumbens are latin words not to be translated !-->
+    <string name="app_name">Harpagophytum procumbens</string>
+    <string name="app_header_l1">That is the question:</string>
+    <string name="app_header_l2">Do you know all about Harpagophytum procumbens (H. procumbens)?</string>
+    <!-- QUESTIONS !-->
+    <string name="single_right_answer">single right answer</string>
+    <string name="_1">1</string>
+    <string name="question_1">H. procumbens is one of the floral emblems of:</string>
+    <string name="radio_q1a_botswana_true">Botswana</string>
+    <string name="radio_q1b_bangladesh">Bangladesh</string>
+    <string name="radio_q1c_burundi">Burundi</string>
+    <string name="_2">2</string>
+    <string name="question_2">H. procumbens is mainly used to treat:</string>
+    <string name="radio_q2a_migraine">migraine</string>
+    <string name="radio_q2b_joint_pain_true">joint pain</string>
+    <string name="radio_q2c_lung_edema">lung edema</string>
+    <string name="_3">3</string>
+    <string name="question_3">The tubers of H. procumbens constitute up to 30, 60 or 90 per cent of the weight of the plant?</string>
+    <string name="q3_your_choice">Enter your choice:</string>
+    <string name="q3_per_cent">%</string>
+    <string name="btn_valid_q3">valid</string>
+    <string name="multiple_right_answers">multiple right answers</string>
+    <string name="_4">4</string>
+    <string name="question_4">This plant is known as:</string>
+    <!-- look for the name the plant is known about in your country  !-->
+    <string name="check_q4a_grapple_plant_true">grapple plant</string>
+    <!-- feel free to imagine a name  !-->
+    <string name="check_q4b_wrestle_root">wrestle root</string>
+    <!-- look for the name the plant is known about in your country  !-->
+    <string name="check_q4c_wood_spider_true">wood spider</string>
+    <!-- feel free to imagine a name  !-->
+    <string name="check_q4d_steel_scorpion">steel scorpion</string>
+    <!-- look for the name the plant is known about in your country  !-->
+    <string name="check_q4e_devil_s_claw_true">devil\'s claw</string>
+    <string name="_5">5</string>
+    <string name="question_5">To which families belongs the H. procumbens?</string>
+    <!-- latin words !-->
+    <string name="check_q5a_hypnaceae" translatable="false">Hypnaceae</string>
+    <string name="check_q5b_ophioglossaceae" translatable="false">Ophioglossaceae</string>
+    <string name="check_q5c_pedaliaceae_true" translatable="false">Pedaliaceae</string>
+    <string name="check_q5d_sesame_true" translatable="false">Sesame</string>
+    <string name="_6">6</string>
+    <string name="question_6">Which pictures represent this plant?</string>
+    <string name="img_01_q6a_true">01</string>
+    <string name="img_02_q6b_true">02</string>
+    <string name="img_03_q6c">03</string>
+    <string name="img_04_q6d">04</string>
+    <string name="score_and_solutions">score and solutions</string>
+    <string name="discover_your_score">Discover your score:</string>
+    <string name="receive_answers_mailbox">Receive the answers to the quiz in your mailbox:</string>
+    <string name="your_name">Your name</string>
+    <!-- BUTTONS !-->
+    <string name="btn_grading">grading</string>
+    <string name="btn_submit">submit</string>
+    <string name="btn_reset">reset</string>
+    <!-- FOOTER !-->
+    <string name="app_footer_l1">Contact us:</string>
+    <!-- email address !-->
+    <string name="app_footer_l2" translatable="false">udacity@quiz-project.com</string>
+    <string name="app_footer_l3">Thank You</string>
+    <!-- TOASTS!-->
+    <string name="toast01_congrats">Congrats!</string>
+    <string name="toast01_plant">\"Your on the way to become a lovely plant\"</string>
+    <string name="toast02_reset">Your data has been deleted</string>
+    <!-- final grading!-->
+    <string name="grading_out_of">/</string>
+    <string name="grading_10">10</string>
+    <!-- EMAIL BODY !-->
+    <string name="email_subject">Quiz answers for:</string>
+    <string name="email_body">Thank you for your participation, please find below the answers to the quiz:</string>
+    <string name="q1">Question 1:</string>
+    <string name="q2">Question 2:</string>
+    <string name="q3">Question 3: 90%</string>
+    <string name="q4">Question 4:</string>
+    <string name="q5">Question 5:</string>
+    <string name="q6">Question 6:</string>
+    <string name="email_end_01">Regards,</string>
+    <string name="email_end_02">The team of Quiz Project</string>
+    <!-- SPECIFIC JAVA CODE !-->
+    <string name="new_line" translatable="false">\n</string>
+    <string name="space" translatable="false">\u0020</string>
+</resources>

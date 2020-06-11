@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HEADER !-->
+    <!-- N.B.: Harpagophytum procumbens / H. procumbens are latin words not to be translated !-->
+    <string name="app_name">Harpagophytum procumbens</string>
+    <string name="app_header_l1">Telle est la question</string>
+    <string name="app_header_l2">Savez-vous tout sur l’Harpagophytum procumbens  (H. procumbens) ?</string>
+    <!-- QUESTIONS !-->
+    <string name="single_right_answer">réponse unique</string>
+    <string name="_1">1</string>
+    <string name="question_1">L\'H. procumbens est l\'un des emblèmes floraux du :</string>
+    <string name="radio_q1a_botswana_true">Botswana</string>
+    <string name="radio_q1b_bangladesh">Bangladesh</string>
+    <string name="radio_q1c_burundi">Burundi</string>
+    <string name="_2">2</string>
+    <string name="question_2">L’H. procumbens est principalement utilisé pour traiter :</string>
+    <string name="radio_q2a_migraine">les migraines</string>
+    <string name="radio_q2b_joint_pain_true">les douleurs articulaires</string>
+    <string name="radio_q2c_lung_edema">les œdèmes pulmonaires</string>
+    <string name="_3">3</string>
+    <string name="question_3">Les tubercules de l’H. procumbens constituent jusqu\'à 30, 60 ou 90 pourcent du poids de la plante ?</string>
+    <string name="q3_your_choice">Entrez votre choix :</string>
+    <string name="q3_per_cent">%</string>
+    <string name="btn_valid_q3">validez</string>
+    <string name="multiple_right_answers">réponses multiples</string>
+    <string name="question_4">Cette plante est connu sous le nom de :</string>
+    <string name="_4">4</string>
+    <!-- look for the name the plant is known about in your country  !-->
+    <string name="check_q4a_grapple_plant_true">racine de Windhoek</string>
+    <!-- feel free to imagine a name  !-->
+    <string name="check_q4b_wrestle_root">grappe de Katutura</string>
+    <!-- look for the name the plant is known about in your country  !-->
+    <string name="check_q4c_wood_spider_true">Duiwelsklou</string>
+    <!-- feel free to imagine a name  !-->
+    <string name="check_q4d_steel_scorpion">Taïpan</string>
+    <!-- look for the name the plant is known about in your country  !-->
+    <string name="check_q4e_devil_s_claw_true">griffe du diable</string>
+    <string name="question_5">A quelles familles appartient l\'H. procumbens ?</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="question_6">Quelles images représentent cette plante ?</string>
+    <string name="img_01_q6a_true">01</string>
+    <string name="img_02_q6b_true">02</string>
+    <string name="img_03_q6c">03</string>
+    <string name="img_04_q6d">04</string>
+    <string name="score_and_solutions">score et solutions</string>
+    <string name="discover_your_score">Votre classement :</string>
+    <string name="receive_answers_mailbox">Recevez les réponses du questionnaire dans votre boîte mail</string>
+    <string name="your_name">Votre prénom</string>
+    <!-- BUTTONS !-->
+    <string name="btn_grading">score</string>
+    <string name="btn_submit">envoyer</string>
+    <string name="btn_reset">réinitialiser</string>
+    <!-- FOOTER !-->
+    <string name="app_footer_l1">Nous contacter</string>
+    <string name="app_footer_l3">Merci</string>
+    <!-- TOASTS!-->
+    <string name="toast01_congrats">Félicitations !</string>
+    <string name="toast01_plant">\"Vous êtes en voie de devenir une belle plante\"</string>
+    <string name="toast02_reset">Vos données ont été effacées</string>
+    <!-- final grading!-->
+    <string name="grading_out_of">/</string>
+    <string name="grading_10">10</string>
+    <!-- EMAIL BODY !-->
+    <string name="email_subject">Les réponses du quiz à l\'attention de :</string>
+    <string name="email_body">Merci pour votre participation, veuillez trouver ci-dessous les réponses au quiz :</string>
+    <string name="q1">Question 1 :</string>
+    <string name="q2">Question 2 :</string>
+    <string name="q3">Question 3 : 90%</string>
+    <string name="q4">Question 4 :</string>
+    <string name="q5">Question 5 :</string>
+    <string name="q6">Question 6 :</string>
+    <string name="email_end_01">Cordialement,</string>
+    <string name="email_end_02">L\'équipe de Quiz Project</string>
+</resources>
