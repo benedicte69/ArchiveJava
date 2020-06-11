@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Giora Feidman</string>
+    <string name="album">album:</string>
+    <string name="released">released:</string>
+    <string name="go_back">go back</string>
+    <string name="music_without_borders">Music has no border</string>
+    <string name="logo_java_gold_album" translatable="false">logo Java Gold Album</string>
+    <string name="giora_feidman" translatable="false">Giora Feidman</string>
+    <string name="clarinetist">Clarinetist</string>
+</resources>
