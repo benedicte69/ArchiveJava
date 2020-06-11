@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- margin and padding 16dp, Android Design guidelines -->
+    <dimen name="padding">16dp</dimen>-->
+    <dimen name="margin">16dp</dimen>-->
+
+    <!-- padding wrapper news card  -->
+    <dimen name="padding_t_b_card">8dp</dimen>-->
+    <dimen name="padding_l_r_card">32dp</dimen>-->
+
+    <!-- padding text news card -->
+    <dimen name="padding_text_card">5dp</dimen>-->
+
+    <!-- height image news card wrapper -->
+    <dimen name="height_img_wrapper">210dp</dimen>-->
+    <dimen name="height_footer">50dp</dimen>-->
+
+    <!-- text sizes -->
+    <dimen name="text_small_size">12sp</dimen>-->
+    <dimen name="text_medium_size">14sp</dimen>-->
+
+</resources>

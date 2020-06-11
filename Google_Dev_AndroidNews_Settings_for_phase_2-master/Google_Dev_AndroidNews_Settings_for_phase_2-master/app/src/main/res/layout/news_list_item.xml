@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/card_main_wrapper">
+
+    <ImageView
+        style="@style/card_image_android"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_android" />
+
+    <RelativeLayout style="@style/card_image_wrapper">
+
+        <ImageView
+            android:id="@+id/image_view"
+            style="@style/card_image_view"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/img_background" />
+
+        <LinearLayout style="@style/card_text_wrapper_t_b">
+
+            <TextView
+                android:id="@+id/title_view"
+                style="@style/card_title_view" />
+
+            <TextView
+                android:id="@+id/section_view"
+                style="@style/card_section_view" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/card_text_wrapper_t_b"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout style="@style/card_text_author_date_wrapper">
+
+                <TextView
+                    android:id="@+id/author_view"
+                    style="@style/card_author_view" />
+
+                <TextView
+                    android:id="@+id/date_view"
+                    style="@style/card_date_view" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/card_read_more_view"
+                android:text="@string/read_more" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Android News</string>
+    <string name="publication">Publication: www.theguardian.com</string>
+    <string name="no_network">no internet connection</string>
+    <string name="no_data">no data available</string>
+    <string name="read_more">read more</string>
+    <!--activity settings -->
+    <string name="activity_settings_label">Android News Settings</string>
+    <!--menu-->
+    <string name="menu_main_settings_action">Settings</string>
+    <!--preference order by -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key">order_by_key</string>
+    <string name="settings_order_by_default">@string/settings_order_by_relevance_value</string>
+    <!--label order by relevance (default)-->
+    <string name="settings_order_by_relevance_label">Relevance (default)</string>
+    <string name="settings_order_by_relevance_value">relevance</string>
+    <!--label order by newest-->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value">newest</string>
+    <!--label order by oldest-->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value">oldest</string>
+    <!--label order by most viewed-->
+    <string name="settings_order_by_most_viewed_label">Most viewed</string>
+    <string name="settings_order_by_most_viewed_value">show-most-viewed=true</string>
+</resources>
