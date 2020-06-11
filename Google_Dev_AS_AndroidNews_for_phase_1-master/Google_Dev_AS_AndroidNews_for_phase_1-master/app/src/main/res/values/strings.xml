@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android News</string>
+    <string name="publication">Publication: www.theguardian.com</string>
+    <string name="no_network">no internet connection</string>
+    <string name="no_data">no data available</string>
+    <string name="read_more">read more</string>
+</resources>

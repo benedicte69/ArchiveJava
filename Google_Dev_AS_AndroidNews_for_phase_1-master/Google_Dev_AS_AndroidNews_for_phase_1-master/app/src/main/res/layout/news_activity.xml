@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_activity_wrapper">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
+        style="@style/list_view" />
+
+    <!-- Empty view is only visible when the list has no items. -->
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/empty_view" />
+
+    <!-- Loading spinner while waiting for the server's response. -->
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        style="@style/Custom_Widget_AppCompat_ProgressBar" />
+
+    <!--Footer is fixed-->
+    <TextView
+        android:id="@+id/footer_view"
+        style="@style/footer_wrapper"
+        android:text="@string/publication" />
+</RelativeLayout>

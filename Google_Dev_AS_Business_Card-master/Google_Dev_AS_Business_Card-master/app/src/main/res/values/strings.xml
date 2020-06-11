@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Business Card</string>
+
+    <string name="phone_number">+33 6 77 87 02 06</string>
+    <string name="email">phil.evenementiel@yahoo.fr</string>
+    <string name="website">www.phil-evenementiel.com</string>
+
+    <string name="phone_number_icon">phone number icon</string>
+    <string name="email_icon">email icon</string>
+    <string name="website_icon">website icon</string>
+
+    <string name="google_plus">Google Plus</string>
+    <string name="facebook">Facebook</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="you_tube">YouTube</string>
+    <string name="company_name">phil evenementiel</string>
+    <string name="photo">photo laser show</string>
+    <string name="logo">logo phil evenementiel</string>
+</resources>
